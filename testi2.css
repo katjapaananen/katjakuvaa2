@@ -1,0 +1,127 @@
+body { background-color: #f6f4f3;
+margin:0
+
+}
+
+.topnav {
+
+    color:#31241e;
+
+        width:100%;
+        background-color: #f6f4f3;
+        overflow: auto;
+      }
+      
+   
+      .topnav a {
+        float: right;
+        text-align: center;
+        padding: 30px;
+        color: #79462e;
+        text-decoration: none;
+        font-size: 20px;
+
+      }
+      
+      
+      .active {
+        background-color: #f6f4f3;
+      }
+      
+
+      .new1 {
+        border-top: 1px solid #79462e;
+        padding-bottom: 25px;
+      }    
+    
+
+
+.otsikko-class {
+
+    background: url(sivukuva.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Montserrat, Arial;
+    background-position: 40%;
+    padding: 0%;
+    height: 500px;
+    }
+
+    .otsikkoteksti {
+      font-family: Poppins, Arial;
+      color:#31241e;
+      margin-left: 40px;
+
+    }
+
+   .column {
+    float: left;
+    width: 60%;
+  }
+
+  .profiilikuva {
+    float: right;
+    width: 35%;
+    margin-bottom: 30px;
+  }
+
+  .profiilikuvat {
+    float: right;
+    width: 35%;
+    margin-bottom: 30px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+   h1{
+    color:#31241e;
+   }
+
+   .leipäteksti-class {
+    font-family: Poppins, Arial;
+    color:#31241e;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+   }
+
+   .new2 {
+    border-top: 1px solid #79462e;
+  }  
+
+   .footer-class {
+    text-align:center;
+    font-family: Poppins, Arial;
+    color:#79462e;
+   }
+
+   .footer-image {
+padding-right: 10px;
+padding-left: 10px;
+   }
+ 
+   div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }  
